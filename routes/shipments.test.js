@@ -26,6 +26,7 @@ describe("POST /", function () {
     });
 
     expect(resp.statusCode).toEqual(400);
+    // expect(resp.body).toEqual()
   });
 
   test("invalid-missing values", async function () {
